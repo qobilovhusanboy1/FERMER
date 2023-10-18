@@ -16,6 +16,10 @@ import { VaccinationHistoryModule } from './vaccination_history/vaccination_hist
 import { FeedingModule } from './feeding/feeding.module';
 import { RecordsOfFeedingModule } from './records_of_feeding/records_of_feeding.module';
 import { InfoModule } from './info/info.module';
+import { MeatProductionModule } from './meat-production/meat-production.module';
+import { MilkProductionModule } from './milk-production/milk-production.module';
+import { FiberProductionModule } from './fiber-production/fiber-production.module';
+import { RecordOfIlnessModule } from './record-of-ilness/record-of-ilness.module';
 
 @Module({
   imports: [
@@ -36,6 +40,10 @@ import { InfoModule } from './info/info.module';
     FeedingModule,
     RecordsOfFeedingModule,
     InfoModule,
+    MeatProductionModule,
+    MilkProductionModule,
+    FiberProductionModule,
+    RecordOfIlnessModule,
   ],
   controllers: [],
   providers: [],
